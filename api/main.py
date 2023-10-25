@@ -7,3 +7,4 @@ app = Flask(__name__)
 api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://user-name:strong-password@localhost/user-name'
 db = SQLAlchemy(app)
+test="test"
